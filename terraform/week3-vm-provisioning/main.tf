@@ -1,7 +1,7 @@
 provider "aws" {
 region = "eu-north-1"
 }
-resource "aws_instance" "vm" {
+resource "aws_instance" "web" {
   ...
 }
   ami           = var.ami_id
@@ -11,6 +11,7 @@ resource "aws_instance" "vm" {
     Name = "Week3-VM"
   }
 }
+
 
 
 
