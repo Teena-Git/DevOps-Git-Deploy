@@ -11,6 +11,10 @@ resource "aws_instance" "web" {
     Name = "Week3-VM"
   }
 }
+resource "aws_instance" "web" {
+  # This block must exist for import to work
+}
+
 
 
 
