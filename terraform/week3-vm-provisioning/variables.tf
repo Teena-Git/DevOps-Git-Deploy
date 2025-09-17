@@ -1,7 +1,7 @@
 variable "ami_id" {
   description = "The AMI ID for the EC2 instance"
   type        = string
-  default     = "ami-05395cea3ae7267e9"
+  default     = "ami-0a716d3f3b16d290c"
 }
 
 variable "instance_type" {
@@ -9,4 +9,5 @@ variable "instance_type" {
   type        = string
   default     = "t3.micro"
 }
+
 
